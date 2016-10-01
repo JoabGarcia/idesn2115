@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+h1 { color:#00F;
+font-family:Verdana, Geneva, sans-serif;
+font-style:oblique;
+}
+
+h2 {color:#F90;
+
+}
+
+h3 {color:#F60;
+}
+
+body {line-height:18px;
+color:#006;
+text-align:center;
+font-variant:small-caps;
+}
+
+
+
+ul {color:#006;
+	line-height:30px;
+	list-style-position:inside;
+}
+
+ol {color:#006;
+	list-style-position:inside;
+}
+
+table {margin:auto;
+}
+
+
