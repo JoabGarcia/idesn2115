@@ -39,7 +39,8 @@ h3 {
 	text-transform: uppercase;
 	font-weight: bold ;
 	color: #6d6e70 ;
-	visibility: hidden;
+	/*visibility: hidden;*/
+	display:none;
 }
 
 .green, .blue, .pink {
