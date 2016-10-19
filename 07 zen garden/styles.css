@@ -1,0 +1,72 @@
+.page-wrapper {
+	background-color: black ;
+}
+
+body {
+	font-family: "Caslon", serif;
+	color: white ;
+}
+header h1, h2{
+	text-align:right;}
+
+header h1{
+		font-size:0px;
+		visibility: hidden ;
+	}
+
+
+
+header h1::before{
+		content:"CSS";
+		visibility: visible ;
+		font-size: 72px ;
+		display: block ;
+		
+	}
+
+	/*header {float:left;}*/
+
+header h2{visibility: hidden ;
+	font-size: 0px ;
+}
+
+header h2::before{
+	content:"Zen Garden";
+	font-size:25px;
+	display:block;
+	margin-top:-15px;
+	margin-bottom:7px;
+	font-style: italic ;
+	visibility: visible
+}
+
+.summary {
+	font-size: 14px ;
+	line-height: 30px ;
+	text-align: right ;
+}
+
+.preamble::before{
+	content:"The Beauty of CSS Design";
+	font-size: 30px ;
+	font-style: italic ;
+}
+
+.preamble p{
+	font-size: 10px ;
+}
+
+.preamble h3 {
+	font-size: 12px ;
+}
+
+.main p{font-size: 10px;}
+
+.main h3 {
+	font-size: 12px ;
+}
+
+
+
+
+
