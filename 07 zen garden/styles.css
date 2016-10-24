@@ -1,10 +1,8 @@
-.page-wrapper {
-	background-color: black ;
-}
 
 body {
 	font-family: "Caslon", serif;
 	color: white ;
+	background-color: black ;
 }
 header h1, h2{
 	text-align:right;}
@@ -24,7 +22,6 @@ header h1::before{
 		
 	}
 
-	/*header {float:left;}*/
 
 header h2{visibility: hidden ;
 	font-size: 0px ;
@@ -44,6 +41,8 @@ header h2::before{
 	font-size: 14px ;
 	line-height: 30px ;
 	text-align: right ;
+	width: 40% ;
+	border-right: 5px solid green ;
 }
 
 .preamble::before{
@@ -66,9 +65,76 @@ header h2::before{
 	font-size: 12px ;
 }
 
+/* Trying to set up joint 
+sections in different sides of the page.
+This didn't work, but I'll tweak it later
+
+header, .summary { 
+	float: left ;
+	width: 25% ;
+}
 
 
+.preamble {
+	float: right ;
+}
+*/
 
+.preamble {
+	float: right ;
+	/*clear: both;*/
+	width: 60% ;
+	background-color: grey ;
+}
+
+.main {
+	width: 55% ;
+	float: right ;
+	background-color: grey ;
+	margin-top: -27px ;
+}
+
+header {
+	float: left;
+	width: 40% ;
+}
+
+
+/*.complementary {
+	float: left;
+	clear: left ;
+}*/
+
+.design-selection, .design-archives, .zen-resources {
+	text-align: right ;
+	background-color: grey ;
+	border-top: 2px solid red;
+	border-bottom: 2px solid red;
+	margin: 10px 0px 10px 0px ;
+}
+
+ul {
+	list-style: none ;
+}
+
+.preamble {
+	position: absolute;
+	left: 45% ;
+	top: 10%;
+}
+
+.sidebar {
+	width: 40% ;
+	border-right: 5px solid green ;
+	margin-top: -20px;
+	font-size: 1em ;
+}
+
+.sidebar::before {
+	content: "space" ;
+	visibility: hidden ;
+	font-size: 20px ;
+}
 
 
 
