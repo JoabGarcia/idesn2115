@@ -18,6 +18,7 @@ header h1::before{
 		content:"CSS";
 		visibility: visible ;
 		font-size: 72px ;
+		font-weight: 200 ;
 		display: block ;
 		
 	}
@@ -43,6 +44,7 @@ header h2::before{
 	text-align: right ;
 	width: 40% ;
 	border-right: 5px solid green ;
+	background-color: #525252 ;
 }
 
 .preamble::before{
@@ -83,15 +85,16 @@ header, .summary {
 .preamble {
 	float: right ;
 	/*clear: both;*/
-	width: 60% ;
+	width: 55% ;
 	background-color: grey ;
+	margin-top: 30px ;
 }
 
 .main {
 	width: 55% ;
 	float: right ;
 	background-color: grey ;
-	margin-top: -27px ;
+	margin-top: 5px ; /*original margin was -27 */
 }
 
 header {
@@ -107,9 +110,9 @@ header {
 
 .design-selection, .design-archives, .zen-resources {
 	text-align: right ;
-	background-color: grey ;
+	/*background-color: grey ; 
 	border-top: 2px solid red;
-	border-bottom: 2px solid red;
+	border-bottom: 2px solid red;  not sure I'll use this color or border*/
 	margin: 10px 0px 10px 0px ;
 }
 
@@ -128,6 +131,7 @@ ul {
 	border-right: 5px solid green ;
 	margin-top: -20px;
 	font-size: 1em ;
+	background-color: #525252 ;
 }
 
 .sidebar::before {
