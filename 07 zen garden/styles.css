@@ -1,9 +1,16 @@
 
 body {
+	margin: auto ; /*gets rid of all space
+	around page except bottom*/
 	font-family: "Caslon", serif;
 	color: white ;
 	background-color: black ;
 }
+
+p {
+	margin:auto;
+}
+
 header h1, h2{
 	text-align:right;}
 
@@ -87,14 +94,15 @@ header, .summary {
 	/*clear: both;*/
 	width: 55% ;
 	background-color: grey ;
-	margin-top: 30px ;
+	/*margin-top: 30px ;*/
 }
 
 .main {
-	width: 55% ;
+	width: 60% ;
 	float: right ;
 	background-color: grey ;
 	margin-top: 5px ; /*original margin was -27 */
+	
 }
 
 header {
@@ -123,7 +131,7 @@ ul {
 .preamble {
 	position: absolute;
 	left: 45% ;
-	top: 10%;
+	top: 0;
 }
 
 .sidebar {
@@ -139,6 +147,8 @@ ul {
 	visibility: hidden ;
 	font-size: 20px ;
 }
+
+
 
 
 

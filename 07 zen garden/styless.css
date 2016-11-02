@@ -1,0 +1,100 @@
+body {
+	margin: auto ; /*gets rid of all space
+	around page except bottom*/
+	font-family: "Caslon", serif;
+	color: white ;
+	background-color: grey ;
+}
+
+p {
+	margin:auto;
+}
+
+header h1, h2{
+	text-align:right;
+	}
+
+header h1{
+		font-size:0px;
+		visibility: hidden ;
+	}
+
+
+
+header h1::before{
+		content:"CSS";
+		visibility: visible ;
+		font-size: 72px ;
+		font-weight: 200 ;
+		display: block ;
+		
+	}
+
+
+header h2{visibility: hidden ;
+	font-size: 0px ;
+}
+
+header h2::before{
+	content:"Zen Garden";
+	font-size:25px;
+	display:block;
+	margin-top:-15px;
+	margin-bottom:7px;
+	font-style: italic ;
+	visibility: visible
+}
+header {
+	float:left;
+	width: 300px;
+	background-color: #525252 ;
+}
+
+.summary {
+	float: left ;
+	clear: left;
+	width: 300px ;
+	font-size: 14px ;
+	line-height: 30px ;
+	text-align: right ;
+	background-color: #525252 ;
+}
+
+.design-selection, .design-archives, .zen-resources {
+	text-align: right ;
+	width: 300px;
+	/*background-color: grey ; 
+	border-top: 2px solid red;
+	border-bottom: 2px solid red;  not sure I'll use this color or border*/
+	float: left;
+	display:block;
+	clear: left;
+	background-color: #525252 ;
+}
+
+
+
+ul {
+	list-style: none ;
+}
+
+.preamble {
+	position:absolute;
+	top:150px;
+	width: 500px;
+	left: 500px ;
+	background-color: grey;
+	/* height is 184px */
+}
+
+.main {
+	position: absolute;
+	width: 500px ;
+	top:334px;
+	left: 500px;
+	background-color: grey;
+}
+
+.sidebar {
+	border-right: 2px solid green;
+}
