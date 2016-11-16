@@ -164,3 +164,9 @@ a:hover {
 footer a {
 	padding: 0px 10px 0px 10px;
 }
+
+[role="contentinfo"] {
+	font-style: italic;
+	padding-top: 27px;
+	padding-bottom: 10px;
+	}
