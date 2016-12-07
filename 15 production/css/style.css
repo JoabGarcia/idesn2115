@@ -3,5 +3,82 @@
 }*/
 
 .links{
-	background-color:;
+	position: fixed;
+	top:0;
+	left:0;
+	width: 100%;
+	background-color: #82c86a;
+	padding: 10px;
+	text-align: right;
 }
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 5 20 5 5;
+}
+
+li {
+	display: inline;
+}
+
+#temp {
+	width: 300px;
+	height: 400px;
+	margin-left:100px;
+	margin-top:200px;
+	/*position: absolute;*/
+	clear:both;
+	/*top: 400px ;*/
+	/*background-color: blue;*/
+
+}
+
+#sec1 {
+	float:left;
+	width: 100%;
+	padding-bottom:10px;
+	/*padding-left:100px;*/
+
+}
+
+/*.clearfix {
+	clear:both;
+}*/
+
+
+.text p {
+	font-size: 25px;
+	width: 550px;
+	border-left: 2px solid yellow;
+	border-bottom: 2px solid yellow;
+	position: relative;
+	left: 452.03px;
+	bottom: 250px;
+	/*padding-right:50px;
+	padding-left: 30px;
+	padding-bottom: 30px;*/
+	padding: 0 50 30 110;
+
+}
+
+h2 {
+	position: absolute;
+	left: 370px;
+	top: 90px;
+	color: blue;
+	font-size: 60px ;
+	text-align: right;
+}
+
+h2 span{
+	font-size: 45px;
+}
+
+div, img, nav, h2, p {
+	border: 1px solid red !important;
+}
+
+/*create list of issues for Saul to help with.
+sort least to worst*/
+
