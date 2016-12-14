@@ -28,7 +28,7 @@ li {
 	margin-left:100px;
 	margin-top:200px;
 	/*position: absolute;*/
-	clear:both;
+	/*clear:both;*/
 	/*top: 400px ;*/
 	/*background-color: blue;*/
 
@@ -62,10 +62,10 @@ li {
 
 }
 
-h2 {
-	position: absolute;
-	left: 370px;
-	top: 90px;
+.name {
+	position: relative;
+	right: 518.85px;
+	top: -520px;
 	color: blue;
 	font-size: 60px ;
 	text-align: right;
