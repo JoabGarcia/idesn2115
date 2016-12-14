@@ -1,3 +1,7 @@
+body {
+	font-family: "Calibri light", helvetica, sans-serif;
+}
+
 .links{
 	position: fixed;
 	top:0;
@@ -9,6 +13,7 @@
 	z-index:100;
 }
 
+/*list nav
 ul {
 	list-style-type: none;
 	margin: 0;
@@ -17,6 +22,17 @@ ul {
 
 li {
 	display: inline;
+}*/
+
+table {
+	float:right;
+	margin: 0;
+	padding: 5 20 5 5;
+	text-align: center;
+}
+
+td {
+	padding: 0 10 0 10;
 }
 
 .temp {
@@ -29,6 +45,7 @@ li {
 }
 
 #sec1 {
+	position:relative;
 	float:left;
 	width: 100%;
 	/*background-image: url('../images/background1.png');
@@ -41,14 +58,17 @@ li {
 }
 
 #sec2 {
+	position:relative;
 	float:left;
 	width: 100%;
 	padding-bottom: 60px;
+	
 	/*padding-bottom:10px;*/
 
 }
 
 #sec3 {
+	position:relative;
 	float:left;
 	width: 100%;
 	/*padding-bottom:10px;*/
@@ -56,19 +76,20 @@ li {
 }
 
 #sec4 {
+	position:relative;
 	float:left;
 	width: 100%;
 	/*padding-bottom:10px;*/
 
 }
 
-/*.back {
+.back {
 	position:absolute;
 	right: 40px;
 	top: 100px;
 	z-index: 0;
 	opacity: 0.5;
-}*/
+}
 
 .name {
 	position:relative;
@@ -77,10 +98,6 @@ li {
 	color: blue;
 	font-size: 60px ;
 	text-align: right;
-}
-
-h2 span{
-	font-size: 45px;
 }
 
 .text p {
@@ -95,6 +112,16 @@ h2 span{
 	padding: 0 50 30 110;
 	z-index:2;
 	/*margin-bottom: 30px;*/
+}
+
+.heading {
+	color: blue;
+	font-size: 27px;
+}
+
+.ccap {
+
+	font-size: 45px;
 }
 
 .two {
@@ -112,15 +139,17 @@ h2 span{
 .form {
 	float: left;
 	margin-left: 50.21px ;
+	border-left: 2px solid yellow;
+	border-bottom: 2px solid yellow;
 }
 
 /*.clearfix {
 	clear:both;
 }*/
 
-div, img, nav, h2, p {
+/*div, img, nav, h2, p {
 	border: 1px solid red !important;
-}
+}*/
 
 /*.jotform-form {
 	padding: 0px !important;
