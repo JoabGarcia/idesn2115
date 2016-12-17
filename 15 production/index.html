@@ -5,8 +5,6 @@
 
 <link rel="stylesheet" media="screen" href="../15 production/css/styles.css">
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-
 
 
 </head>
@@ -45,13 +43,13 @@
 
 	</tr>
 	<tr>
-	<td><a href="#sec1">Kim Hillard</a></td>
+	<td><a id="#scrollToOne" href="">Kim Hillard</a></td>
 	
-	<td><a href="#sec2">aromatherapy?</a></td>
+	<td><a id="#scrollToTwo" href="">aromatherapy?</a></td>
 	
-	<td><a href="#sec3">contact</a></td>
+	<td><a id="#scrollToThree" href="">contact</a></td>
 	
-	<td><a href="#sec4">disclaimer</a></td>
+	<td><a id="#scrollToFour" href="">disclaimer</a></td>
 	</tr>
 	</table>
 
@@ -140,10 +138,23 @@
 </div> -->
 </div>
 
-<script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
+        <script type="text/javascript">
+            $(document).ready(function() {
+                // when a#scrollToTwo is clicked,
+                // scroll to #two.
+                jQuery ('a#scrollToTwo').on ( 'click', function ( ) {
+                    event.preventDefault() ; // prevent doing typical link-y stuff.
 
-</script>
+                    jQuery('html, body').animate({ // don't change 'html, body'
+                        scrollTop: $("#sec2").offset().top // plug in the #destination here
+                    }, 2000); // 2000 is 2 seconds
+
+                    console.log ('clicked the link') ;
+                }) ;
+            }) ;
+        </script>
 
 
 </body>
