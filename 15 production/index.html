@@ -39,7 +39,7 @@
 
 	<td><img class="icon" src="../15 production/images/icon3.png" width="30" height="30"></td>
 
-	<td><img class="icon" src="../15 production/images/icon1.png" width="30" height="30"></td>
+	<td><img class="icon" src="../15 production/images/icon4.png" width="30" height="30"></td>
 
 	</tr>
 	<tr>
@@ -144,12 +144,13 @@
             $(document).ready(function() {
                 // when a#scrollToTwo is clicked,
                 // scroll to #two.
-                jQuery ('a#scrollToTwo').on ( 'click', function ( ) {
+                jQuery ('a').on ( 'click', function ( ) {
                     event.preventDefault() ; // prevent doing typical link-y stuff.
 
                     jQuery('html, body').animate({ // don't change 'html, body'
                         scrollTop: $("#sec2").offset().top // plug in the #destination here
-                    }, 2000); // 2000 is 2 seconds
+                    }, 2000); 
+                    // 2000 is 2 seconds
 
                     console.log ('clicked the link') ;
                 }) ;
